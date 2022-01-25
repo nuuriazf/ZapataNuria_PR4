@@ -14,7 +14,7 @@ OcclusionCullingSettings:
 RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
-  m_Fog: 1
+  m_Fog: 0
   m_FogColor: {r: 0.65080994, g: 0.666729, b: 0.7075472, a: 1}
   m_FogMode: 3
   m_FogDensity: 0.05
@@ -472,6 +472,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Survivor
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: 15b65bacc0702f74e8485b472ca4968d, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: c1859cf9a3f973d48a05cb87acc8bda8, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 15b65bacc0702f74e8485b472ca4968d, type: 3}
 --- !u!1 &840404832
@@ -541,7 +545,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4044717213e31446939f7bd49c896ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TrackedObjectOffset: {x: 0, y: 1.34, z: 0}
+  m_TrackedObjectOffset: {x: 0, y: 1.56, z: 0}
   m_LookaheadTime: 0
   m_LookaheadSmoothing: 0
   m_LookaheadIgnoreY: 0
@@ -768,6 +772,29 @@ Transform:
   m_Father: {fileID: 2100805891}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &897381875 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 15b65bacc0702f74e8485b472ca4968d, type: 3}
+  m_PrefabInstance: {fileID: 679790017}
+  m_PrefabAsset: {fileID: 0}
+--- !u!143 &897381876
+CharacterController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 897381875}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Height: 2
+  m_Radius: 0.5
+  m_SlopeLimit: 45
+  m_StepOffset: 0.3
+  m_SkinWidth: 0.08
+  m_MinMoveDistance: 0.001
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &926751779
 GameObject:
   m_ObjectHideFlags: 0
@@ -806,7 +833,7 @@ MonoBehaviour:
   m_LookAt: {fileID: 1494160056}
   m_Follow: {fileID: 1494160056}
   m_Lens:
-    FieldOfView: 51
+    FieldOfView: 10
     OrthographicSize: 5
     NearClipPlane: 0.3
     FarClipPlane: 1000
@@ -827,7 +854,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 926751779}
-  m_LocalRotation: {x: 0.15231855, y: -1e-45, z: -0, w: 0.9883315}
+  m_LocalRotation: {x: 0.12917565, y: -1.1368406e-15, z: 4.9056e-16, w: 0.99162173}
   m_LocalPosition: {x: 267.96732, y: 23.972, z: 379.78}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -1254,7 +1281,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1687258581}
-  m_LocalRotation: {x: 0.13593969, y: 0.29681683, z: -0.042731795, w: 0.94424266}
+  m_LocalRotation: {x: 0.13593967, y: 0.29681686, z: -0.042731807, w: 0.94424266}
   m_LocalPosition: {x: 266.25085, y: 23.762, z: 381.65866}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -1281,7 +1308,7 @@ MonoBehaviour:
   m_RendererIndex: -1
   m_VolumeLayerMask:
     serializedVersion: 2
-    m_Bits: 1
+    m_Bits: 49
   m_VolumeTrigger: {fileID: 0}
   m_RenderPostProcessing: 1
   m_Antialiasing: 1
@@ -1313,7 +1340,7 @@ MonoBehaviour:
   m_BlendUpdateMethod: 1
   m_DefaultBlend:
     m_Style: 1
-    m_Time: 2
+    m_Time: 1
     m_CustomCurve:
       serializedVersion: 2
       m_Curve: []
@@ -1519,7 +1546,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2029250313}
-  m_LocalRotation: {x: 0.13593967, y: 0.29681683, z: -0.04273179, w: 0.94424266}
+  m_LocalRotation: {x: 0.13593967, y: 0.29681686, z: -0.04273179, w: 0.94424266}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
