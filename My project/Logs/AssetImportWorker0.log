@@ -15,11 +15,11 @@ C:/Users/ani/Desktop/ZapataNuria_PR4/My project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54950
+57321
 Successfully changed project path to: C:/Users/ani/Desktop/ZapataNuria_PR4/My project
 C:/Users/ani/Desktop/ZapataNuria_PR4/My project
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 46.81 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 50.10 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.1f1 (77a89f25062f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/Resources/UnitySubsystems
@@ -31,474 +31,295 @@ Direct3D:
     Vendor:   
     VRAM:     5991 MB
     Driver:   27.21.14.5730
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56192
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56436
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001490 seconds.
+Registered in 0.001714 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 45.67 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 49.86 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.542 seconds
+- Completed reload, in  1.458 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001117 seconds.
+Registered in 0.001081 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 50.84 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 54.03 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.109 seconds
+- Completed reload, in  1.136 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.99 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2764 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 127.3 MB.
-System memory in use after: 121.9 MB.
+Unloading 3061 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 141.2 MB.
+System memory in use after: 141.4 MB.
 
-Unloading 98 unused Assets to reduce memory usage. Loaded Objects now: 3139.
-Total: 5.791100 ms (FindLiveObjects: 0.342200 ms CreateObjectMapping: 0.157000 ms MarkObjects: 2.670300 ms  DeleteObjects: 2.619900 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/camino.terrainlayer
-  artifactKey: Guid(43fb9c86eba22664c9fe79408221ac75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/camino.terrainlayer using Guid(43fb9c86eba22664c9fe79408221ac75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84792e75f2114cfecb8ed08c74b3de1b') in 0.078889 seconds
-  Import took 0.082923 seconds .
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 3517.
+Total: 2.412200 ms (FindLiveObjects: 0.326000 ms CreateObjectMapping: 0.143600 ms MarkObjects: 1.849500 ms  DeleteObjects: 0.092400 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000138 seconds.
-  path: Assets/mudrocky.terrainlayer
-  artifactKey: Guid(0e3da42b3d600c34aa425917e11557aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/mudrocky.terrainlayer using Guid(0e3da42b3d600c34aa425917e11557aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07468cf88a4eda950ab9f7008fe69fbf') in 0.013906 seconds
-  Import took 0.017739 seconds .
+  path: Assets/InputSystem.inputsettings.asset
+  artifactKey: Guid(06ee4083cf350a148b137e27567396d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InputSystem.inputsettings.asset using Guid(06ee4083cf350a148b137e27567396d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60e67a4a9d8cd0b6ac2cec3444ef9c9d') in 0.027976 seconds
+  Import took 0.032123 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000137 seconds.
-  path: Assets/Readme.asset
-  artifactKey: Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Readme.asset using Guid(83c2ed844a8c74b779a4c823d16594b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f35831333e7f1a380d04c69d9ee475a1') in 0.007743 seconds
-  Import took 0.011528 seconds .
+  Time since last request: 50.840475 seconds.
+  path: Assets/InputSystem
+  artifactKey: Guid(c39b0f27aeedcbc4c8c5137a10b20874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InputSystem using Guid(c39b0f27aeedcbc4c8c5137a10b20874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6025383e17417c8eb180223cc310ad52') in 0.006089 seconds
+  Import took 0.010478 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 314.668785 seconds.
-  path: Assets/Personajes/Hombre/Survivor.fbx
-  artifactKey: Guid(15b65bacc0702f74e8485b472ca4968d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Personajes/Hombre/Survivor.fbx using Guid(15b65bacc0702f74e8485b472ca4968d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5802c0eaf020a747851e5b02d8a1995b') in 0.399389 seconds
-  Import took 0.404009 seconds .
+  Time since last request: 19.564658 seconds.
+  path: Assets/InputSystem/New Controls.inputactions
+  artifactKey: Guid(c777ba60f27609a43b058a310d6f0c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InputSystem/New Controls.inputactions using Guid(c777ba60f27609a43b058a310d6f0c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12a1362e746f1533feb14c717a754997') in 0.010272 seconds
+  Import took 0.014618 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.339201 seconds.
-  path: Assets/Personajes/Hombre/Animaciones/survivor@death1.fbx
-  artifactKey: Guid(993d4df94468570449c96b233fb32109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Personajes/Hombre/Animaciones/survivor@death1.fbx using Guid(993d4df94468570449c96b233fb32109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30b981d81d5a3b8173e1b6d607485d41') in 0.009551 seconds
-  Import took 0.013716 seconds .
+  Time since last request: 63.766122 seconds.
+  path: Assets/InputSystem/InputActions.inputactions
+  artifactKey: Guid(c777ba60f27609a43b058a310d6f0c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InputSystem/InputActions.inputactions using Guid(c777ba60f27609a43b058a310d6f0c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e28430991089031d9ddfb27e8884342') in 0.006266 seconds
+  Import took 0.010717 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000249 seconds.
-  path: Assets/Personajes/Hombre/Animaciones/survivor@Idle_lookForward.fbx
-  artifactKey: Guid(5719c6b00f978674f833fd594834f4d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Personajes/Hombre/Animaciones/survivor@Idle_lookForward.fbx using Guid(5719c6b00f978674f833fd594834f4d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a27e50407d88d8f9ba0bcf613d18988') in 0.008167 seconds
-  Import took 0.011627 seconds .
+  Time since last request: 1581.573602 seconds.
+  path: Assets/InputSystem/InputSystem.inputsettings.asset
+  artifactKey: Guid(06ee4083cf350a148b137e27567396d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InputSystem/InputSystem.inputsettings.asset using Guid(06ee4083cf350a148b137e27567396d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9fc07a11aecf038c1072af63397bb70') in 0.003139 seconds
+  Import took 0.008107 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/Personajes/Hombre/Animaciones/survivor@Run_1.fbx
-  artifactKey: Guid(0b2fa55a2f441574b8898789d8fec249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Personajes/Hombre/Animaciones/survivor@Run_1.fbx using Guid(0b2fa55a2f441574b8898789d8fec249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f44d9a3e1f29db4e3bf7798990e97b8e') in 0.008236 seconds
-  Import took 0.011842 seconds .
+  Time since last request: 0.683303 seconds.
+  path: Assets/InputSystem/InputActions.inputactions
+  artifactKey: Guid(c777ba60f27609a43b058a310d6f0c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InputSystem/InputActions.inputactions using Guid(c777ba60f27609a43b058a310d6f0c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68594b1be82d7f5c7cf4a465d902f4b9') in 0.005278 seconds
+  Import took 0.009567 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/Personajes/Hombre/Animaciones/survivor@ZoomInMoveBack.fbx
-  artifactKey: Guid(8fccecbcec0e6a04ca73cc36e7babc20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Personajes/Hombre/Animaciones/survivor@ZoomInMoveBack.fbx using Guid(8fccecbcec0e6a04ca73cc36e7babc20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c024ee333d32b35c66ab5ab2bc25485') in 0.007763 seconds
-  Import took 0.011330 seconds .
+  Time since last request: 29.559917 seconds.
+  path: Assets/InputSystem/InputActions.inputactions
+  artifactKey: Guid(c777ba60f27609a43b058a310d6f0c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InputSystem/InputActions.inputactions using Guid(c777ba60f27609a43b058a310d6f0c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16721d43ecf0a9eebef6444bfca78ac8') in 0.003823 seconds
+  Import took 0.008086 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/Personajes/Hombre/Animaciones/survivor@Idle_LookAround_1.fbx
-  artifactKey: Guid(51431ce47a4729d4fb0d1aca23a370fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Personajes/Hombre/Animaciones/survivor@Idle_LookAround_1.fbx using Guid(51431ce47a4729d4fb0d1aca23a370fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f5e66446eecd6e4a4927550f5f9b320') in 0.008364 seconds
-  Import took 0.011949 seconds .
+  Time since last request: 77.912310 seconds.
+  path: Assets/InputSystem/InputActions.cs
+  artifactKey: Guid(345931238519187479822443ce8cff3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InputSystem/InputActions.cs using Guid(345931238519187479822443ce8cff3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98414aca4d2a369bef916b6e3ea394f0') in 0.004605 seconds
+  Import took 0.008950 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/Personajes/Hombre/Animaciones/survivor@NormalWalk_1.fbx
-  artifactKey: Guid(154dccd14cdb53c48918076d97dcd3d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Personajes/Hombre/Animaciones/survivor@NormalWalk_1.fbx using Guid(154dccd14cdb53c48918076d97dcd3d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ab4e8edb3b4e60d14b6debc56935a42') in 0.008521 seconds
-  Import took 0.012273 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Assets/Personajes/Hombre/Animaciones/survivor@strafe_left_noWeapon.fbx
-  artifactKey: Guid(41b10b03c3da0b84d81b4fe8f8f828e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Personajes/Hombre/Animaciones/survivor@strafe_left_noWeapon.fbx using Guid(41b10b03c3da0b84d81b4fe8f8f828e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f6adef3fec77b2b77e04100840ce4cb') in 0.007756 seconds
-  Import took 0.011216 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/Personajes/Hombre/Animaciones/survivor@strafe_right_noWeapon.fbx
-  artifactKey: Guid(f432eb393f9673e47a171ea8ab16cd77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Personajes/Hombre/Animaciones/survivor@strafe_right_noWeapon.fbx using Guid(f432eb393f9673e47a171ea8ab16cd77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e0874ad2fe9936478009ffe5dcaad45') in 0.009475 seconds
-  Import took 0.013063 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 359.199560 seconds.
-  path: Assets/Personajes/Hombre/Survivor.fbx
-  artifactKey: Guid(15b65bacc0702f74e8485b472ca4968d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Personajes/Hombre/Survivor.fbx using Guid(15b65bacc0702f74e8485b472ca4968d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1ceb697f0ccffc5c8482af7e6745825') in 0.072120 seconds
-  Import took 0.076716 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 857.951735 seconds.
-  path: Assets/Personajes/Hombre
-  artifactKey: Guid(4fca200839d2b924b96ff36126b157a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Personajes/Hombre using Guid(4fca200839d2b924b96ff36126b157a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '710d55370d0117ae77bad36561630a47') in 0.006423 seconds
-  Import took 0.011241 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000505 seconds.
-  path: Assets/Personajes/Hombre
-  artifactKey: Guid(4fca200839d2b924b96ff36126b157a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Personajes/Hombre using Guid(4fca200839d2b924b96ff36126b157a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '710d55370d0117ae77bad36561630a47') in 0.002142 seconds
-  Import took 0.005687 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.823188 seconds.
-  path: Assets/Personajes/Hombre/New Animator Controller.controller
-  artifactKey: Guid(c1859cf9a3f973d48a05cb87acc8bda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Personajes/Hombre/New Animator Controller.controller using Guid(c1859cf9a3f973d48a05cb87acc8bda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '784fe8adf1f11f02cf19ee2d958f1e73') in 0.008562 seconds
-  Import took 0.012394 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 62.103874 seconds.
-  path: Assets/Personajes/Hombre/SurvivorController.controller
-  artifactKey: Guid(c1859cf9a3f973d48a05cb87acc8bda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Personajes/Hombre/SurvivorController.controller using Guid(c1859cf9a3f973d48a05cb87acc8bda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dd07440caa143e7cafe477cfbf9af34') in 0.006275 seconds
-  Import took 0.009997 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 122.030943 seconds.
-  path: Assets/Personajes/Hombre/Animaciones
-  artifactKey: Guid(6559486a7eefb564bbba66be4b979f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Personajes/Hombre/Animaciones using Guid(6559486a7eefb564bbba66be4b979f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0150145462aca60ac08b4bd08a290d3') in 0.005716 seconds
-  Import took 0.009983 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3331.758317 seconds.
-  path: Assets/Terrenos/Cabin/SurvivalOldHouse01_model.FBX
-  artifactKey: Guid(e3350bee9ff748b4383850ade7aefb36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Terrenos/Cabin/SurvivalOldHouse01_model.FBX using Guid(e3350bee9ff748b4383850ade7aefb36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '552fbf2885b131d9d276d7d341c3e15f') in 0.131140 seconds
-  Import took 0.135949 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001744 seconds.
-  path: Assets/Terrenos/Cabin/SurvivalOldHouse01_model.FBX
-  artifactKey: Guid(e3350bee9ff748b4383850ade7aefb36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Terrenos/Cabin/SurvivalOldHouse01_model.FBX using Guid(e3350bee9ff748b4383850ade7aefb36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '552fbf2885b131d9d276d7d341c3e15f') in 0.111561 seconds
-  Import took 0.115480 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.450041 seconds.
-  path: Assets/Terrenos/Cabin/SurvivalOldHouse01_prefab.prefab
-  artifactKey: Guid(3c59cdee9495b8a4d8220341ecad82ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Terrenos/Cabin/SurvivalOldHouse01_prefab.prefab using Guid(3c59cdee9495b8a4d8220341ecad82ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '673558b1aa886ab1b302eb3ea6ae05fe') in 0.009582 seconds
-  Import took 0.013864 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000823 seconds.
-  path: Assets/Terrenos/Cabin/SurvivalOldHouse01_prefab.prefab
-  artifactKey: Guid(3c59cdee9495b8a4d8220341ecad82ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Terrenos/Cabin/SurvivalOldHouse01_prefab.prefab using Guid(3c59cdee9495b8a4d8220341ecad82ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '673558b1aa886ab1b302eb3ea6ae05fe') in 0.003631 seconds
-  Import took 0.007535 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 94.315708 seconds.
-  path: Assets/Personajes/Hombre/Animaciones/survivor@Idle_lookForward.fbx
-  artifactKey: Guid(5719c6b00f978674f833fd594834f4d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Personajes/Hombre/Animaciones/survivor@Idle_lookForward.fbx using Guid(5719c6b00f978674f833fd594834f4d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fad162a3523655fe4324cdc29afbe3f8') in 0.008850 seconds
-  Import took 0.013635 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001540 seconds.
-  path: Assets/Personajes/Hombre/Animaciones/survivor@Idle_lookForward.fbx
-  artifactKey: Guid(5719c6b00f978674f833fd594834f4d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Personajes/Hombre/Animaciones/survivor@Idle_lookForward.fbx using Guid(5719c6b00f978674f833fd594834f4d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fad162a3523655fe4324cdc29afbe3f8') in 0.005592 seconds
-  Import took 0.009670 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 60.654496 seconds.
-  path: Assets/Personajes/Hombre/Animaciones/survivor@NormalWalk_1.fbx
-  artifactKey: Guid(154dccd14cdb53c48918076d97dcd3d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Personajes/Hombre/Animaciones/survivor@NormalWalk_1.fbx using Guid(154dccd14cdb53c48918076d97dcd3d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20f3ccc8f68865bd09d8fe6b30d42826') in 0.006663 seconds
-  Import took 0.010956 seconds .
+  Time since last request: 0.005659 seconds.
+  path: Assets/InputSystem/InputActions.cs
+  artifactKey: Guid(345931238519187479822443ce8cff3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InputSystem/InputActions.cs using Guid(345931238519187479822443ce8cff3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98414aca4d2a369bef916b6e3ea394f0') in 0.002254 seconds
+  Import took 0.006489 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001095 seconds.
+Registered in 0.001211 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.45 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.984 seconds
+- Completed reload, in  1.167 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2690 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 144.7 MB.
-System memory in use after: 139.3 MB.
+Unloading 2912 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.4 MB.
+System memory in use after: 132.6 MB.
 
-Unloading 83 unused Assets to reduce memory usage. Loaded Objects now: 3229.
-Total: 4.756900 ms (FindLiveObjects: 0.414800 ms CreateObjectMapping: 0.137300 ms MarkObjects: 1.730100 ms  DeleteObjects: 2.473700 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 140.770521 seconds.
-  path: Assets/Personajes/Hombre/Animaciones/survivor@death1.fbx
-  artifactKey: Guid(993d4df94468570449c96b233fb32109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Personajes/Hombre/Animaciones/survivor@death1.fbx using Guid(993d4df94468570449c96b233fb32109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88162b48218a203a03cb496e8ff7b371') in 0.028385 seconds
-  Import took 0.032511 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.972777 seconds.
-  path: Assets/Personajes/Hombre/Survivor.fbx
-  artifactKey: Guid(15b65bacc0702f74e8485b472ca4968d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Personajes/Hombre/Survivor.fbx using Guid(15b65bacc0702f74e8485b472ca4968d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03e40cc09b393d34420b51ba184e633a') in 0.176575 seconds
-  Import took 0.180726 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 66.991104 seconds.
-  path: Assets/Personajes/Hombre/Animaciones/survivor@NormalWalk_1.fbx
-  artifactKey: Guid(154dccd14cdb53c48918076d97dcd3d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Personajes/Hombre/Animaciones/survivor@NormalWalk_1.fbx using Guid(154dccd14cdb53c48918076d97dcd3d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52095376f6b8dbb2284039778481cabc') in 0.005668 seconds
-  Import took 0.009862 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.490189 seconds.
-  path: Assets/Personajes/Hombre/Animaciones/survivor@ZoomInMoveBack.fbx
-  artifactKey: Guid(8fccecbcec0e6a04ca73cc36e7babc20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Personajes/Hombre/Animaciones/survivor@ZoomInMoveBack.fbx using Guid(8fccecbcec0e6a04ca73cc36e7babc20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7903cf7d042bbe5da92d3d29ba8e14c8') in 0.005190 seconds
-  Import took 0.009337 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.074664 seconds.
-  path: Assets/Personajes/Hombre/Animaciones/survivor@ZoomInMoveBack.fbx
-  artifactKey: Guid(8fccecbcec0e6a04ca73cc36e7babc20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Personajes/Hombre/Animaciones/survivor@ZoomInMoveBack.fbx using Guid(8fccecbcec0e6a04ca73cc36e7babc20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9a54e9ac3c5d14c5bcb5e81b9962a08') in 0.004875 seconds
-  Import took 0.008792 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.826848 seconds.
-  path: Assets/Personajes/Hombre/Animaciones/survivor@Idle_LookAround_1.fbx
-  artifactKey: Guid(51431ce47a4729d4fb0d1aca23a370fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Personajes/Hombre/Animaciones/survivor@Idle_LookAround_1.fbx using Guid(51431ce47a4729d4fb0d1aca23a370fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e610b204ecff275195a93d531850d134') in 0.009136 seconds
-  Import took 0.013419 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.206590 seconds.
-  path: Assets/Personajes/Hombre/Animaciones/survivor@Idle_LookAround_1.fbx
-  artifactKey: Guid(51431ce47a4729d4fb0d1aca23a370fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Personajes/Hombre/Animaciones/survivor@Idle_LookAround_1.fbx using Guid(51431ce47a4729d4fb0d1aca23a370fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef928ad182720c75a2c7c6e627c0a453') in 0.005047 seconds
-  Import took 0.008904 seconds .
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3521.
+Total: 2.351100 ms (FindLiveObjects: 0.283800 ms CreateObjectMapping: 0.109400 ms MarkObjects: 1.850000 ms  DeleteObjects: 0.107100 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001097 seconds.
+Registered in 0.001134 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.999 seconds
+- Completed reload, in  1.011 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2690 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 144.8 MB.
-System memory in use after: 139.4 MB.
+Unloading 2912 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.5 MB.
+System memory in use after: 132.6 MB.
 
-Unloading 83 unused Assets to reduce memory usage. Loaded Objects now: 3268.
-Total: 4.477600 ms (FindLiveObjects: 0.257700 ms CreateObjectMapping: 0.108700 ms MarkObjects: 1.699700 ms  DeleteObjects: 2.410900 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 2101.462244 seconds.
-  path: Assets/Personajes/Hombre/Animaciones/survivor@strafe_left_noWeapon.fbx
-  artifactKey: Guid(41b10b03c3da0b84d81b4fe8f8f828e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Personajes/Hombre/Animaciones/survivor@strafe_left_noWeapon.fbx using Guid(41b10b03c3da0b84d81b4fe8f8f828e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c01354787304243c7599d0b19e190f3') in 0.025199 seconds
-  Import took 0.030066 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 234.067804 seconds.
-  path: Assets/Personajes/Hombre/Animaciones/survivor@Run_1.fbx
-  artifactKey: Guid(0b2fa55a2f441574b8898789d8fec249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Personajes/Hombre/Animaciones/survivor@Run_1.fbx using Guid(0b2fa55a2f441574b8898789d8fec249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '114675beac10db2160cef6c7fc781a32') in 0.009763 seconds
-  Import took 0.014364 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.112881 seconds.
-  path: Assets/Personajes/Hombre/Animaciones/survivor@Run_1.fbx
-  artifactKey: Guid(0b2fa55a2f441574b8898789d8fec249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Personajes/Hombre/Animaciones/survivor@Run_1.fbx using Guid(0b2fa55a2f441574b8898789d8fec249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '414ea5f405c08020d35c4a607e54305d') in 0.004947 seconds
-  Import took 0.008832 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 47.738342 seconds.
-  path: Assets/Personajes/Hombre/SurvivorController.controller
-  artifactKey: Guid(c1859cf9a3f973d48a05cb87acc8bda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Personajes/Hombre/SurvivorController.controller using Guid(c1859cf9a3f973d48a05cb87acc8bda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9809ac1240a8a2023434f88a466ba2b1') in 0.012708 seconds
-  Import took 0.016941 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 72.677230 seconds.
-  path: Assets/Personajes/Hombre/Animaciones/survivor@death1.fbx
-  artifactKey: Guid(993d4df94468570449c96b233fb32109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Personajes/Hombre/Animaciones/survivor@death1.fbx using Guid(993d4df94468570449c96b233fb32109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a8d58146633924dfa6129b45cf224c8') in 0.009005 seconds
-  Import took 0.013259 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 125.614823 seconds.
-  path: Assets/Scripts
-  artifactKey: Guid(02a3527b6b33a924e8ec66aa805ea717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts using Guid(02a3527b6b33a924e8ec66aa805ea717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc3f90885c863d2ff59025764a22e930') in 0.006020 seconds
-  Import took 0.010194 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.255366 seconds.
-  path: Assets/Scripts/PlayerMove.cs
-  artifactKey: Guid(7c5cc876bc3100c429bd946fb0829975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PlayerMove.cs using Guid(7c5cc876bc3100c429bd946fb0829975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '556b6cb9ed6bb426d37c0ea42c083261') in 0.022398 seconds
-  Import took 0.026777 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.547570 seconds.
-  path: Assets/Scripts/PlayerMove.cs
-  artifactKey: Guid(7c5cc876bc3100c429bd946fb0829975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/PlayerMove.cs using Guid(7c5cc876bc3100c429bd946fb0829975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b1c6d5e946efef552b2f51e0b6dfa9f') in 0.002256 seconds
-  Import took 0.006384 seconds .
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3524.
+Total: 2.347200 ms (FindLiveObjects: 0.297800 ms CreateObjectMapping: 0.130100 ms MarkObjects: 1.848300 ms  DeleteObjects: 0.070200 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001115 seconds.
+Registered in 0.001081 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.983 seconds
+- Completed reload, in  1.012 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2691 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 145.0 MB.
-System memory in use after: 139.5 MB.
+Unloading 2912 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.5 MB.
+System memory in use after: 132.7 MB.
 
-Unloading 83 unused Assets to reduce memory usage. Loaded Objects now: 3272.
-Total: 4.979800 ms (FindLiveObjects: 0.425500 ms CreateObjectMapping: 0.175300 ms MarkObjects: 1.835900 ms  DeleteObjects: 2.541900 ms)
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3527.
+Total: 2.944100 ms (FindLiveObjects: 0.451400 ms CreateObjectMapping: 0.139800 ms MarkObjects: 2.237900 ms  DeleteObjects: 0.114000 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001071 seconds.
+Registered in 0.001191 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.978 seconds
+- Completed reload, in  0.982 seconds
 Platform modules already initialized, skipping
 Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2691 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 145.0 MB.
-System memory in use after: 139.5 MB.
+Unloading 2912 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.5 MB.
+System memory in use after: 132.7 MB.
 
-Unloading 83 unused Assets to reduce memory usage. Loaded Objects now: 3275.
-Total: 4.467500 ms (FindLiveObjects: 0.294900 ms CreateObjectMapping: 0.114600 ms MarkObjects: 1.601200 ms  DeleteObjects: 2.456100 ms)
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3530.
+Total: 2.789700 ms (FindLiveObjects: 0.359900 ms CreateObjectMapping: 0.147000 ms MarkObjects: 2.160600 ms  DeleteObjects: 0.117100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001052 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.057 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2912 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.5 MB.
+System memory in use after: 132.7 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3533.
+Total: 2.648500 ms (FindLiveObjects: 0.541700 ms CreateObjectMapping: 0.204000 ms MarkObjects: 1.827300 ms  DeleteObjects: 0.074700 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6608.291695 seconds.
-  path: Assets/Personajes/Hombre/SurvivorController.controller
-  artifactKey: Guid(c1859cf9a3f973d48a05cb87acc8bda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Personajes/Hombre/SurvivorController.controller using Guid(c1859cf9a3f973d48a05cb87acc8bda8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '746508fbe188cc3196a47fc3b84b3156') in 0.023523 seconds
-  Import took 0.028914 seconds .
+  Time since last request: 504.453633 seconds.
+  path: Assets/InputSystem/InputActions.inputactions
+  artifactKey: Guid(c777ba60f27609a43b058a310d6f0c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InputSystem/InputActions.inputactions using Guid(c777ba60f27609a43b058a310d6f0c44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6cfb302135e9cda5a6baedabeabe4d8') in 0.023195 seconds
+  Import took 0.027381 seconds .
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001143 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.024 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2912 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.5 MB.
+System memory in use after: 132.7 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3536.
+Total: 2.532500 ms (FindLiveObjects: 0.353400 ms CreateObjectMapping: 0.183100 ms MarkObjects: 1.915900 ms  DeleteObjects: 0.079500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001242 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.013 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2912 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.6 MB.
+System memory in use after: 132.7 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3539.
+Total: 2.626400 ms (FindLiveObjects: 0.329800 ms CreateObjectMapping: 0.136000 ms MarkObjects: 2.043700 ms  DeleteObjects: 0.116300 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

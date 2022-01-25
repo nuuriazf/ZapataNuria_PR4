@@ -33,8 +33,8 @@ public class PlayerMove : MonoBehaviour
         inputActions.Player.Moverse.canceled += ctx => movePlayer = Vector2.zero;
 
         //Desplaz Izq
-        inputActions.Player.Despl_Izq.performed += ctx => strafeL = ctx.ReadValue<float>();
-        inputActions.Player.Despl_Izq.canceled += ctx => strafeL = 0f;
+        inputActions.Player.Despl_izq.performed += ctx => strafeL = ctx.ReadValue<float>();
+        inputActions.Player.Despl_izq.canceled += ctx => strafeL = 0f;
 
         //Desplaz Dcho
         inputActions.Player.Despl_Dcha.performed += ctx => strafeR = ctx.ReadValue<float>();
