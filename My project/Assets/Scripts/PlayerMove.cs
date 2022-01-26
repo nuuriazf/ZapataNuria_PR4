@@ -15,14 +15,17 @@ public class PlayerMove : MonoBehaviour
     Vector2 movePlayer;
     float strafeL;
     float strafeR;
+    //Estados
     bool corriendo;
-    bool caminando;
     bool desplazando;
 
     //Velocidad de desplazamiento
     float speed; //Velocidad de desplazamiento
     Vector3 dir; //Dirección hacia la que se mueve
     float strafe; //Velocidad de desplazamiento lateral
+
+    //Camaras
+    [SerializeField] GameObject VCam, FreeCam;
 
     private void Awake()
     {
@@ -43,6 +46,8 @@ public class PlayerMove : MonoBehaviour
         //Correr
         inputActions.Player.Correr.started += _ => StartRun();
         inputActions.Player.Correr.canceled += _ => StopRun();
+
+       
     }
 
     // Start is called before the first frame update
@@ -51,92 +56,97 @@ public class PlayerMove : MonoBehaviour
         character = GetComponent<CharacterController>();
         animator = GetComponent<Animator>();
 
+        VCam = GameObject.Find("Vcam1");
+        FreeCam = GameObject.Find("CM FreeLook1");
+
+        VCam.SetActive(false);
+        FreeCam.SetActive(true);
+
     }
 
     // Update is called once per frame
     void Update()
     {
 
-        print(character.isGrounded);
-        //print(movePlayer.y);
-
-        Girar();
-
-        if (corriendo && movePlayer.y > 0.5f)
+        if (strafeL != 0 || strafeR != 0)
         {
-            character.SimpleMove(dir * speed);
+            desplazando = true;
         }
         else
         {
-            Caminar();
+            desplazando = false;
         }
 
-        Strafe();
-
-    }
-
-    void Strafe()
-    {
-
-        if (strafeL != 0 || strafeR != 0)
+        //Estados
+        if (corriendo && movePlayer.y > 0)
         {
-            animator.SetBool("StrafeBool", true);
+            animator.SetBool("Correr", true);
+            animator.SetBool("Lateral", false);
+            speed = 5f;
+            dir = transform.TransformDirection(Vector3.forward);
+            character.SimpleMove(dir * speed);
+        }
+        else if (desplazando)
+        {
+            animator.SetBool("Correr", false);
+            animator.SetBool("LateralBool", true);
             float strafeValue = strafeR - strafeL;
-            animator.SetFloat("Strafe", strafeValue);
+            animator.SetFloat("Lateral", strafeValue);
             speed = 2.2f;
             dir = transform.TransformDirection(Vector3.right);
             character.SimpleMove(dir * strafeValue * speed);
         }
         else
         {
-            speed = 2.5f;
+            animator.SetBool("Correr", false);
+            animator.SetBool("LateralBool", false);
+            if (movePlayer.y < 0)
+            {
+                speed = 0.9f;
+            }
+            else
+            {
+                speed = 2.5f;
+            }
+
             dir = transform.TransformDirection(Vector3.forward);
-            animator.SetBool("StrafeBool", false);
+            character.SimpleMove(dir * speed * movePlayer.y);
+            animator.SetFloat("Caminar", movePlayer.y);
         }
-        /*
-        speed = 1.2f;
-        dir = transform.TransformDirection(Vector3.right);
-        character.SimpleMove(dir * speed);
-        */
+
+
+        Girar();
     }
+
+    void Apuntar()
+    {
+        VCam.SetActive(true);
+        FreeCam.SetActive(false);
+    }
+
+    void Desapuntar()
+    {
+        VCam.SetActive(false);
+        FreeCam.SetActive(true);
+    }
+
+
 
     void Girar()
     {
         transform.Rotate(0f, movePlayer.x * 0.6f, 0f);
     }
 
-    void Caminar()
-    {
-        if (movePlayer.y < 0)
-        {
-            speed = 0.9f;
-        }
-        else
-        {
-            speed = 2.5f;
-        }
-
-        dir = transform.TransformDirection(Vector3.forward);
-        character.SimpleMove(dir * speed * movePlayer.y);
-        animator.SetFloat("Caminar", movePlayer.y);
-    }
-
-
-
-
     void StartRun()
     {
-        animator.SetBool("Run", true);
-        speed = 5f;
-        dir = transform.TransformDirection(Vector3.forward);
+
         corriendo = true;
 
     }
 
     void StopRun()
     {
-        animator.SetBool("Run", false);
-        speed = 2.5f;
+
         corriendo = false;
     }
 

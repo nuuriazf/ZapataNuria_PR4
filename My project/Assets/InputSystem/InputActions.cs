@@ -103,10 +103,18 @@ public class @InputActions : IInputActionCollection, IDisposable
             ""id"": ""52d42075-b70e-4053-acb2-09d83d884e5f"",
             ""actions"": [
                 {
-                    ""name"": ""New action"",
+                    ""name"": ""Cam_Izq"",
                     ""type"": ""Value"",
                     ""id"": ""efa64c05-43ee-4ad2-94bf-698d76730b93"",
                     ""expectedControlType"": ""Vector2"",
+                    ""processors"": """",
+                    ""interactions"": """"
+                },
+                {
+                    ""name"": ""Cam_Der"",
+                    ""type"": ""Button"",
+                    ""id"": ""9d696c54-dd15-46c2-ab37-6208da60508d"",
+                    ""expectedControlType"": ""Button"",
                     ""processors"": """",
                     ""interactions"": """"
                 }
@@ -119,7 +127,18 @@ public class @InputActions : IInputActionCollection, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""New action"",
+                    ""action"": ""Cam_Izq"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""6b5d72f9-0245-496c-b937-83de82efb402"",
+                    ""path"": ""<Gamepad>/rightStick/right"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Cam_Der"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -136,7 +155,8 @@ public class @InputActions : IInputActionCollection, IDisposable
         m_Player_Despl_Dcha = m_Player.FindAction("Despl_Dcha", throwIfNotFound: true);
         // Camera
         m_Camera = asset.FindActionMap("Camera", throwIfNotFound: true);
-        m_Camera_Newaction = m_Camera.FindAction("New action", throwIfNotFound: true);
+        m_Camera_Cam_Izq = m_Camera.FindAction("Cam_Izq", throwIfNotFound: true);
+        m_Camera_Cam_Der = m_Camera.FindAction("Cam_Der", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -243,12 +263,14 @@ public class @InputActions : IInputActionCollection, IDisposable
     // Camera
     private readonly InputActionMap m_Camera;
     private ICameraActions m_CameraActionsCallbackInterface;
-    private readonly InputAction m_Camera_Newaction;
+    private readonly InputAction m_Camera_Cam_Izq;
+    private readonly InputAction m_Camera_Cam_Der;
     public struct CameraActions
     {
         private @InputActions m_Wrapper;
         public CameraActions(@InputActions wrapper) { m_Wrapper = wrapper; }
-        public InputAction @Newaction => m_Wrapper.m_Camera_Newaction;
+        public InputAction @Cam_Izq => m_Wrapper.m_Camera_Cam_Izq;
+        public InputAction @Cam_Der => m_Wrapper.m_Camera_Cam_Der;
         public InputActionMap Get() { return m_Wrapper.m_Camera; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -258,16 +280,22 @@ public class @InputActions : IInputActionCollection, IDisposable
         {
             if (m_Wrapper.m_CameraActionsCallbackInterface != null)
             {
-                @Newaction.started -= m_Wrapper.m_CameraActionsCallbackInterface.OnNewaction;
-                @Newaction.performed -= m_Wrapper.m_CameraActionsCallbackInterface.OnNewaction;
-                @Newaction.canceled -= m_Wrapper.m_CameraActionsCallbackInterface.OnNewaction;
+                @Cam_Izq.started -= m_Wrapper.m_CameraActionsCallbackInterface.OnCam_Izq;
+                @Cam_Izq.performed -= m_Wrapper.m_CameraActionsCallbackInterface.OnCam_Izq;
+                @Cam_Izq.canceled -= m_Wrapper.m_CameraActionsCallbackInterface.OnCam_Izq;
+                @Cam_Der.started -= m_Wrapper.m_CameraActionsCallbackInterface.OnCam_Der;
+                @Cam_Der.performed -= m_Wrapper.m_CameraActionsCallbackInterface.OnCam_Der;
+                @Cam_Der.canceled -= m_Wrapper.m_CameraActionsCallbackInterface.OnCam_Der;
             }
             m_Wrapper.m_CameraActionsCallbackInterface = instance;
             if (instance != null)
             {
-                @Newaction.started += instance.OnNewaction;
-                @Newaction.performed += instance.OnNewaction;
-                @Newaction.canceled += instance.OnNewaction;
+                @Cam_Izq.started += instance.OnCam_Izq;
+                @Cam_Izq.performed += instance.OnCam_Izq;
+                @Cam_Izq.canceled += instance.OnCam_Izq;
+                @Cam_Der.started += instance.OnCam_Der;
+                @Cam_Der.performed += instance.OnCam_Der;
+                @Cam_Der.canceled += instance.OnCam_Der;
             }
         }
     }
@@ -281,6 +309,7 @@ public class @InputActions : IInputActionCollection, IDisposable
     }
     public interface ICameraActions
     {
-        void OnNewaction(InputAction.CallbackContext context);
+        void OnCam_Izq(InputAction.CallbackContext context);
+        void OnCam_Der(InputAction.CallbackContext context);
     }
 }
