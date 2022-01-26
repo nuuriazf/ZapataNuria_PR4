@@ -250,3 +250,68 @@ Received Import Request.
 Start importing Assets/Personajes/zomby/ZombieController.controller using Guid(93e0a9cdcfe08a24ea762c9c43fbc106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30ab6ea173b8f3ef07fd269eb6226bbf') in 0.045816 seconds
   Import took 0.050373 seconds .
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001130 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.036 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2913 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 152.7 MB.
+System memory in use after: 152.9 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 3622.
+Total: 2.865900 ms (FindLiveObjects: 0.294300 ms CreateObjectMapping: 0.154500 ms MarkObjects: 2.320100 ms  DeleteObjects: 0.096200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 853.217265 seconds.
+  path: Assets/Scripts/ZombieMove.cs
+  artifactKey: Guid(0b6837a272f457444ab9c386bfc88009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ZombieMove.cs using Guid(0b6837a272f457444ab9c386bfc88009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a960ec5c3fdf82fb913b03d1b32c8b1') in 0.007282 seconds
+  Import took 0.011921 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.636127 seconds.
+  path: Assets/Personajes/zomby/Zombie1.prefab
+  artifactKey: Guid(36469fb151e29764ab5276970b799960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personajes/zomby/Zombie1.prefab using Guid(36469fb151e29764ab5276970b799960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ada0cc9250c9b1f177a7502daa024ee') in 0.191481 seconds
+  Import took 0.196612 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.689894 seconds.
+  path: Assets/Personajes/zomby/Zombie1_Prefab.prefab
+  artifactKey: Guid(36469fb151e29764ab5276970b799960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personajes/zomby/Zombie1_Prefab.prefab using Guid(36469fb151e29764ab5276970b799960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eb19badad2d1cf9f78571a4b3670787') in 0.053415 seconds
+  Import took 0.058445 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.949897 seconds.
+  path: Assets/Personajes/zomby/Zombie1_Prefab.prefab
+  artifactKey: Guid(36469fb151e29764ab5276970b799960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personajes/zomby/Zombie1_Prefab.prefab using Guid(36469fb151e29764ab5276970b799960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab431a1a7765ac95ab3074a6cb0bc419') in 0.048238 seconds
+  Import took 0.053247 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.191872 seconds.
+  path: Assets/Personajes/zomby/Zombie1_Prefab.prefab
+  artifactKey: Guid(36469fb151e29764ab5276970b799960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Personajes/zomby/Zombie1_Prefab.prefab using Guid(36469fb151e29764ab5276970b799960) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9fcea4ae9e84d048b162a342855dc63') in 0.052352 seconds
+  Import took 0.058091 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

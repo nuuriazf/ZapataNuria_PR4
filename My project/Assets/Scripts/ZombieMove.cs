@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class ZombiMove : MonoBehaviour
+public class ZombieMove : MonoBehaviour
 {
     //Variables para el NaveMeshAgent
     float zombiSpeed;
