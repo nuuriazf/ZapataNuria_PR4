@@ -1871,8 +1871,8 @@ GameObject:
   m_Component:
   - component: {fileID: 6606211722709000043}
   - component: {fileID: 958657982137795857}
-  - component: {fileID: 6640350886498023558}
   - component: {fileID: 1822253471929521022}
+  - component: {fileID: 6449597053257390435}
   m_Layer: 0
   m_Name: Zombie1_Prefab
   m_TagString: Untagged
@@ -1928,7 +1928,21 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!195 &6640350886498023558
+--- !u!114 &1822253471929521022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5829393097920284113}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b6837a272f457444ab9c386bfc88009, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  visionRange: 10
+  visionConeAngle: 60
+--- !u!195 &6449597053257390435
 NavMeshAgent:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1950,20 +1964,6 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
---- !u!114 &1822253471929521022
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5829393097920284113}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0b6837a272f457444ab9c386bfc88009, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  visionRange: 10
-  visionConeAngle: 60
 --- !u!1 &6319240168535669112
 GameObject:
   m_ObjectHideFlags: 0

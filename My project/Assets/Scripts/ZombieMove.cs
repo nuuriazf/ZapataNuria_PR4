@@ -85,6 +85,7 @@ public class ZombieMove : MonoBehaviour
                 agent.speed = 0f;
             }
             goal = player.position;
+            print(goal);
 
             agent.SetDestination(goal);
 
@@ -166,7 +167,6 @@ public class ZombieMove : MonoBehaviour
             agent.speed = 0.4f;
             goal = SetRandomGoal(transform.position, 5f);
             yield return new WaitForSeconds(10f);
-
             agent.SetDestination(goal);
 
         }
