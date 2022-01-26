@@ -90,7 +90,7 @@
             "id": "52d42075-b70e-4053-acb2-09d83d884e5f",
             "actions": [
                 {
-                    "name": "Cam_Izq",
+                    "name": "Orbitar",
                     "type": "Value",
                     "id": "efa64c05-43ee-4ad2-94bf-698d76730b93",
                     "expectedControlType": "Vector2",
@@ -98,7 +98,7 @@
                     "interactions": ""
                 },
                 {
-                    "name": "Cam_Der",
+                    "name": "Apuntar",
                     "type": "Button",
                     "id": "9d696c54-dd15-46c2-ab37-6208da60508d",
                     "expectedControlType": "Button",
@@ -114,18 +114,18 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Cam_Izq",
+                    "action": "Orbitar",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
                 {
                     "name": "",
                     "id": "6b5d72f9-0245-496c-b937-83de82efb402",
-                    "path": "<Gamepad>/rightStick/right",
+                    "path": "<Gamepad>/rightStick/up",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Cam_Der",
+                    "action": "Apuntar",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

@@ -103,7 +103,7 @@ public class @InputActions : IInputActionCollection, IDisposable
             ""id"": ""52d42075-b70e-4053-acb2-09d83d884e5f"",
             ""actions"": [
                 {
-                    ""name"": ""Cam_Izq"",
+                    ""name"": ""Orbitar"",
                     ""type"": ""Value"",
                     ""id"": ""efa64c05-43ee-4ad2-94bf-698d76730b93"",
                     ""expectedControlType"": ""Vector2"",
@@ -111,7 +111,7 @@ public class @InputActions : IInputActionCollection, IDisposable
                     ""interactions"": """"
                 },
                 {
-                    ""name"": ""Cam_Der"",
+                    ""name"": ""Apuntar"",
                     ""type"": ""Button"",
                     ""id"": ""9d696c54-dd15-46c2-ab37-6208da60508d"",
                     ""expectedControlType"": ""Button"",
@@ -127,18 +127,18 @@ public class @InputActions : IInputActionCollection, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Cam_Izq"",
+                    ""action"": ""Orbitar"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 },
                 {
                     ""name"": """",
                     ""id"": ""6b5d72f9-0245-496c-b937-83de82efb402"",
-                    ""path"": ""<Gamepad>/rightStick/right"",
+                    ""path"": ""<Gamepad>/rightStick/up"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Cam_Der"",
+                    ""action"": ""Apuntar"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -155,8 +155,8 @@ public class @InputActions : IInputActionCollection, IDisposable
         m_Player_Despl_Dcha = m_Player.FindAction("Despl_Dcha", throwIfNotFound: true);
         // Camera
         m_Camera = asset.FindActionMap("Camera", throwIfNotFound: true);
-        m_Camera_Cam_Izq = m_Camera.FindAction("Cam_Izq", throwIfNotFound: true);
-        m_Camera_Cam_Der = m_Camera.FindAction("Cam_Der", throwIfNotFound: true);
+        m_Camera_Orbitar = m_Camera.FindAction("Orbitar", throwIfNotFound: true);
+        m_Camera_Apuntar = m_Camera.FindAction("Apuntar", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -263,14 +263,14 @@ public class @InputActions : IInputActionCollection, IDisposable
     // Camera
     private readonly InputActionMap m_Camera;
     private ICameraActions m_CameraActionsCallbackInterface;
-    private readonly InputAction m_Camera_Cam_Izq;
-    private readonly InputAction m_Camera_Cam_Der;
+    private readonly InputAction m_Camera_Orbitar;
+    private readonly InputAction m_Camera_Apuntar;
     public struct CameraActions
     {
         private @InputActions m_Wrapper;
         public CameraActions(@InputActions wrapper) { m_Wrapper = wrapper; }
-        public InputAction @Cam_Izq => m_Wrapper.m_Camera_Cam_Izq;
-        public InputAction @Cam_Der => m_Wrapper.m_Camera_Cam_Der;
+        public InputAction @Orbitar => m_Wrapper.m_Camera_Orbitar;
+        public InputAction @Apuntar => m_Wrapper.m_Camera_Apuntar;
         public InputActionMap Get() { return m_Wrapper.m_Camera; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -280,22 +280,22 @@ public class @InputActions : IInputActionCollection, IDisposable
         {
             if (m_Wrapper.m_CameraActionsCallbackInterface != null)
             {
-                @Cam_Izq.started -= m_Wrapper.m_CameraActionsCallbackInterface.OnCam_Izq;
-                @Cam_Izq.performed -= m_Wrapper.m_CameraActionsCallbackInterface.OnCam_Izq;
-                @Cam_Izq.canceled -= m_Wrapper.m_CameraActionsCallbackInterface.OnCam_Izq;
-                @Cam_Der.started -= m_Wrapper.m_CameraActionsCallbackInterface.OnCam_Der;
-                @Cam_Der.performed -= m_Wrapper.m_CameraActionsCallbackInterface.OnCam_Der;
-                @Cam_Der.canceled -= m_Wrapper.m_CameraActionsCallbackInterface.OnCam_Der;
+                @Orbitar.started -= m_Wrapper.m_CameraActionsCallbackInterface.OnOrbitar;
+                @Orbitar.performed -= m_Wrapper.m_CameraActionsCallbackInterface.OnOrbitar;
+                @Orbitar.canceled -= m_Wrapper.m_CameraActionsCallbackInterface.OnOrbitar;
+                @Apuntar.started -= m_Wrapper.m_CameraActionsCallbackInterface.OnApuntar;
+                @Apuntar.performed -= m_Wrapper.m_CameraActionsCallbackInterface.OnApuntar;
+                @Apuntar.canceled -= m_Wrapper.m_CameraActionsCallbackInterface.OnApuntar;
             }
             m_Wrapper.m_CameraActionsCallbackInterface = instance;
             if (instance != null)
             {
-                @Cam_Izq.started += instance.OnCam_Izq;
-                @Cam_Izq.performed += instance.OnCam_Izq;
-                @Cam_Izq.canceled += instance.OnCam_Izq;
-                @Cam_Der.started += instance.OnCam_Der;
-                @Cam_Der.performed += instance.OnCam_Der;
-                @Cam_Der.canceled += instance.OnCam_Der;
+                @Orbitar.started += instance.OnOrbitar;
+                @Orbitar.performed += instance.OnOrbitar;
+                @Orbitar.canceled += instance.OnOrbitar;
+                @Apuntar.started += instance.OnApuntar;
+                @Apuntar.performed += instance.OnApuntar;
+                @Apuntar.canceled += instance.OnApuntar;
             }
         }
     }
@@ -309,7 +309,7 @@ public class @InputActions : IInputActionCollection, IDisposable
     }
     public interface ICameraActions
     {
-        void OnCam_Izq(InputAction.CallbackContext context);
-        void OnCam_Der(InputAction.CallbackContext context);
+        void OnOrbitar(InputAction.CallbackContext context);
+        void OnApuntar(InputAction.CallbackContext context);
     }
 }
