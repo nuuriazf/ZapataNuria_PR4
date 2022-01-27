@@ -82,7 +82,7 @@ public class PlayerMove : MonoBehaviour
         {
             animator.SetBool("Correr", true);
             animator.SetBool("Lateral", false);
-            speed = 5f;
+            speed = 7f;
             dir = transform.TransformDirection(Vector3.forward);
             character.SimpleMove(dir * speed);
         }
@@ -118,18 +118,7 @@ public class PlayerMove : MonoBehaviour
         Girar();
     }
 
-    void Apuntar()
-    {
-        VCam.SetActive(true);
-        FreeCam.SetActive(false);
-    }
-
-    void Desapuntar()
-    {
-        VCam.SetActive(false);
-        FreeCam.SetActive(true);
-    }
-
+    
 
 
     void Girar()
